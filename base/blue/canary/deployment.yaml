@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+  name: deploy-httpd-3
+
+  labels:
+
+    app: deploy-httpd-3
+
+spec:
+
+  replicas: 3
+
+  selector:
+
+    matchLabels:
+
+      app: deploy-httpd-3
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: deploy-httpd-3
+
+    spec:
+
+      containers:
+
+      - name: httpd
+
+        image: httpd:2.4.54
+
+        ports:
+
+        - containerPort: 80
