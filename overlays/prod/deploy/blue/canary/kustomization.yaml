@@ -1,6 +1,6 @@
 resources:
   - ../../empty
-
+  - ../../../../../base/blue/canary
 nameSuffix: -blue-c
 
 patchesJson6902:
