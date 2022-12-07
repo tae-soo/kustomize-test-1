@@ -1,6 +1,6 @@
 resources:
   - ../../empty
- 
+  - ../../../../../base/blue/stable
 
 transformers:
 - ./kustomizeconfig/apply-prefix.yaml
