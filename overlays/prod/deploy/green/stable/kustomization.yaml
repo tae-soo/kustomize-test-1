@@ -1,5 +1,6 @@
 resources:
   - ../../empty
+  ../../../../../base/blue/stable/deployment.yaml
   
 nameSuffix: -green-s
 
