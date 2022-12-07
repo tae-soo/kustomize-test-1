@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-httpd-4
+  name: svc-httpd-2
   labels:
-    app: svc-httpd-4
+    app: svc-httpd-2
 spec:
   type: LoadBalancer
   ports:
-    - name: svc-httpd-4
+    - name: svc-httpd-2
       port: 80
       targetPort: 80
   selector:
-    app: deploy-httpd-4
+    app: deploy-httpd-2
