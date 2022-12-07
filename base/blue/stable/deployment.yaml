@@ -4,11 +4,11 @@ kind: Deployment
 
 metadata:
 
-  name: deploy-httpd-4
+  name: deploy-httpd-2
 
   labels:
 
-    app: deploy-httpd-4
+    app: deploy-httpd-2
 
 spec:
 
@@ -18,7 +18,7 @@ spec:
 
     matchLabels:
 
-      app: deploy-httpd-4
+      app: deploy-httpd-2
 
   template:
 
@@ -26,7 +26,7 @@ spec:
 
       labels:
 
-        app: deploy-httpd-4
+        app: deploy-httpd-2
 
     spec:
 
